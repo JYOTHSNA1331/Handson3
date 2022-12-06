@@ -1,0 +1,76 @@
+body {
+  background: rgb(90, 185, 196);
+  background: linear-gradient(
+    180deg,
+    rgba(90, 185, 196, 1) 4%,
+    rgba(188, 53, 53, 0.47429394120929624) 57%,
+    rgba(180, 17, 17, 0.11855164429052867) 80%
+  );
+  min-height: 100vh;
+}
+
+.feed-form {
+  display: flex;
+  justify-content: center;
+}
+
+#box,
+.form {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  margin-bottom: 50px;
+}
+
+.head {
+  color:black;
+}
+input[type="text"] {
+  margin: 15px;
+  padding: 10px;
+  border: 2px solid black;
+  background-color: ghostwhite;
+}
+label,
+input {
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgb(84, 73, 235);
+  color: white;
+}
+.append-data {
+  width: 400px;
+  padding: 20px;
+  margin: 15px;
+  color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: rgb(146, 241, 117);
+  font-size: 20px;
+}
+#text {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  border: 2px solid rgb(36, 32, 116);
+  width: 80vw;
+  background-color: rgb(233, 114, 179);
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 50px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgb(153, 209, 214);
+}
